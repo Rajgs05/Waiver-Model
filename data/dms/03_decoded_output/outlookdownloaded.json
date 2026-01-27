@@ -1,0 +1,45 @@
+{
+    "category": "DMS",
+    "metadata": {
+        "approver": "nazarenemustoor@outlook.com",
+        "approval_date": "2026-01-23 12:35",
+        "status": "Approved"
+    },
+    "waiver_details": [
+        {
+            "Agreement Number": "EAKU3WYE",
+            "Penal Charge": "3625",
+            "Bounce Charge": "4412",
+            "Total Amount to be Waived off": "2798",
+            "Reason": "Bank side issue"
+        },
+        {
+            "Agreement Number": "1TWH78ME",
+            "Penal Charge": "3625",
+            "Bounce Charge": "4412",
+            "Total Amount to be Waived off": "2798",
+            "Reason": "Bank side issue"
+        },
+        {
+            "Agreement Number": "KSPQQCCS",
+            "Penal Charge": "3625",
+            "Bounce Charge": "4412",
+            "Total Amount to be Waived off": "2798",
+            "Reason": "Bank side issue"
+        },
+        {
+            "Agreement Number": "XBPWO3RS",
+            "Penal Charge": "3625",
+            "Bounce Charge": "4412",
+            "Total Amount to be Waived off": "2798",
+            "Reason": "Bank side issue"
+        },
+        {
+            "Agreement Number": "90H73HED",
+            "Penal Charge": "3625",
+            "Bounce Charge": "4412",
+            "Total Amount to be Waived off": "2798",
+            "Reason": "Bank side issue"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "statementOfAccount":{
+    "status": "Active",
+    "finreference": "P3T88QP991234",
+    "start_date": "2023-03-01",
+    "end_date": "2024-03-01",
+    "loan_amount": 950000,
+    "rate_of_interest": 9.8,
+    "sanctioned_tenure": 60,
+    "tenure": 30,
+    "emi_received": 28,
+    "emi_received_pft": 27,
+    "preferred_card_limit": 180000,
+    "last_disbursement_date": "2023-03-12",
+    "first_due_date": "2023-04-05",
+    "end_installment_date": "2028-04-05",
+    "totalPriWaivedAmt": 0,
+    "totalpftwaivedamt": 0,
+    "soa_summary_report": [
+      { "finreference": "P3T88QP991234", "component": "bounce_charges", "due": 4000, "receipt": 1000, "overdue": 3000, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P3T88QP991234", "component": "penal_charges", "due": 3000, "receipt": 1000, "overdue": 2000, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P3T88QP991234", "component": "other_receivable", "due": 5000, "receipt": 0, "overdue": 5000, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P3T88QP991234", "component": "installment_amount", "due": 26000, "receipt": 26000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P3T88QP991234", "component": "pg_access_fee", "due": 1000, "receipt": 1000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P3T88QP991234", "component": "unadjusted_amount", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P3T88QP991234", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 10000, "waivedoff": 0, "waivedAmtAvail": 0 }
+    ],
+    "transactionReports": [
+        {
+            "finreference": "P7R90CD314234",
+            "transactionDate":"2027-06-07",
+            "event": "Due for Installment 1",
+            "eventDetails":[
+                {
+                    "instNumber":"1"
+                }
+            ],
+            "debitAmount":8799,
+            "creditAmount":0,
+            "fromDate":"2027-05-05T00:00:00",
+            "toDate":"2028-02-12",
+            "priority":3,
+            "balanceAmount":71299,
+            "bounceDebitAmount":0,
+            "bounceCreditAmount":0,
+            "feeDebitAmount":0,
+            "delayDays":250,
+            "appDate":"2028-02-12"
+
+            
+        },
+        {
+            "finreference": "P7R90CD314234",
+            "transactionDate":"2027-06-07",
+            "event": "Due for Installment 2",
+            "eventDetails":[
+                {
+                    "instNumber":"2"
+                }
+            ],
+            "debitAmount":8799,
+            "creditAmount":0,
+            "fromDate":"2027-05-05T00:00:00",
+            "toDate":"2028-02-12",
+            "priority":3,
+            "balanceAmount":135098,
+            "bounceDebitAmount":0,
+            "bounceCreditAmount":0,
+            "feeDebitAmount":55000,
+            "delayDays":220,
+            "appDate":"2028-02-12"
+
+            
+        },
+        {
+            "finreference": "P7R90CD314234",
+            "transactionDate":"2027-06-07",
+            "event": "Due for Installment 3",
+            "eventDetails":[
+                {
+                    "instNumber":"3"
+                }
+            ],
+            "debitAmount":8799,
+            "creditAmount":0,
+            "fromDate":"2027-05-05T00:00:00",
+            "toDate":"2028-02-12",
+            "priority":3,
+            "balanceAmount":191147,
+            "bounceDebitAmount":0,
+            "bounceCreditAmount":0,
+            "feeDebitAmount":47250,
+            "delayDays":189,
+            "appDate":"2028-02-12"
+
+            
+        }
+    ]
+  }
+}

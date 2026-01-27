@@ -1,0 +1,277 @@
+=== FULL OCR OUTPUT ===
+
+1/27/26, 3:34 PM Inbox - Raj Gholap - Outlook
+O4 Outlook
+Re: Waiver request
+From nazarenemustoor@outlook.com <nazarenemustoor@outlook.com>
+Date Tue 2026-01-27 15:34
+To Raj Gholap <userhelprw1@outlook.com>
+Heyyy rajj, | have approved your waiver request!!!
+regards.
+From: Raj Gholap <userhelprw1@outlook.com>
+Sent: Tuesday, January 27, 2026 3:31 PM
+To: nazarenemustoor@outlook.com <nazarenemustoor@outlook.com>
+Subject: Waiver request
+Hi nazarene please approve the waiver request.
+Agreement Penal Charge Bounce Charge | Total Amount | Reason
+Number to be Waived
+Off
+QY6GGBJA 3862 7136 7136 Signature
+Missing
+10A7AG9S 3862 7136 7136 Signature
+Missing
+HLOSFLY8 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+QY6GGBJA 3862 7136 7136 Signature
+Missing
+10A7AG9S 3862 7136 7136 Signature
+Missing
+https://outlook. office.com/mail/inbox/id/AQQkADAWATNiZmYAZS1hY QBiINCOzZMjMzACOWMAItMDAKABAAZmYAdZ3Jf%2FdAg8VGu1W2ztM%3D?na... 1/3
+
+1/27/26, 3:34 PM Inbox - Raj Gholap - Outlook
+HLOSFLY8 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+QY6GGBJA 3862 7136 7136 Signature
+Missing
+10A7AG9S 3862 7136 7136 Signature
+Missing
+HLOSFLY8 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+https://outlook.office.com/mail/inbox/id/AQQkADAWATNIZmYAZS1hY QBiINCOZMjMzACOWMAItMDAKABAAZmYAdZ3Jf%2FdAg8VGu1W2ztM%3D?na... 2/3
+
+1/27/26, 3:34 PM Inbox - Raj Gholap - Outlook
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+https://outlook.office.com/mail/inbox/id/AQQkADAWATNiZmYAZS1hY QBINCOzMjMzACOWMAItMDAKABAAZmYAdZ3uf%2FdAg8VGu1W2ztM%3D?na... 3/3
+
+
+
+=== END OCR OUTPUT ===
+
+
+Rows extracted: 27
+[
+  {
+    "Agreement Number": "QY6GGBJA",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "10A7AG9S",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "HLOSFLY8",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "QY6GGBJA",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "10A7AG9S",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "HLOSFLY8",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "QY6GGBJA",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "10A7AG9S",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "HLOSFLY8",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  }
+]

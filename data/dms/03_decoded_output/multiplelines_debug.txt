@@ -1,0 +1,86 @@
+=== FULL OCR OUTPUT ===
+
+1/27/26, 10:28 AM Mail - Raj Gholap - Outlook
+O4 Outlook
+Re: Waiver request
+From nazarenemustoor@outlook.com <nazarenemustoor@outlook.com>
+Date Fri 2026-01-23 16:13
+To Raj Gholap <userhelprw1@outlook.com>
+Approved.
+From: Raj Gholap <userhelprw1@outlook.com>
+Sent: Friday, January 23, 2026 4:12 PM
+To: nazarenemustoor@outlook.com <nazarenemustoor@outlook.com>
+Subject: Waiver request
+Hi nazarene please approved the waiver request.
+Agreement Penal Charge Bounce Charge | Total Amount Reason
+Number to be Waived
+Off
+QY6GGBJA 3862 7136 7136 Signature
+Missing
+10A7AG9S 3862 7136 7136 Signature
+Missing
+HLOSFLY8 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+8E2KFODQ 7136 7136 7136 Signature
+Missing
+Thanks & regards,
+Raj gholap
+https://outlook. office.com/mail/inbox/id/AQQkADAWATNiZmYAZS 1hY QBiINCOZMjMzACOWMAItMDAKABAAY 118YWTIA0u4LbFm5IOwSg%3D%3D?na... 1/1
+
+
+
+=== END OCR OUTPUT ===
+
+
+Method used: Line analysis
+Rows extracted: 6
+
+Extracted data:
+[
+  {
+    "Agreement Number": "QY6GGBJA",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "10A7AG9S",
+    "Penal Charge": "3862",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "HLOSFLY8",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  },
+  {
+    "Agreement Number": "8E2KFODQ",
+    "Penal Charge": "7136",
+    "Bounce Charge": "7136",
+    "Total Amount to be Waived off": "7136",
+    "Reason": "Signature Missing"
+  }
+]

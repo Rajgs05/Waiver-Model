@@ -1,0 +1,4 @@
+__pycache__/
+*.pdf
+data/dms/01_raw_pdf/*
+.venv/
