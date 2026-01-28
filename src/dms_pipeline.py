@@ -8,7 +8,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from utils.extractor import dms_extraction_logic
 
 def run_pipeline():
-    target_file = "multipage.pdf"
+    target_file = "multiplelines.pdf"
     print(f"--- Starting DMS Pipeline for {target_file} ---")
     
     try:

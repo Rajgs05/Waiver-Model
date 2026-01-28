@@ -36,10 +36,7 @@ https://outlook. office.com/mail/inbox/id/AQQkADAWATNiZmYAZS 1hY QBiINCOZMjMzACO
 === END OCR OUTPUT ===
 
 
-Method used: Line analysis
 Rows extracted: 6
-
-Extracted data:
 [
   {
     "Agreement Number": "QY6GGBJA",
@@ -81,6 +78,6 @@ Extracted data:
     "Penal Charge": "7136",
     "Bounce Charge": "7136",
     "Total Amount to be Waived off": "7136",
-    "Reason": "Signature Missing"
+    "Reason": "Signature Missing Raj gholap"
   }
 ]

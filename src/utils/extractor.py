@@ -4,7 +4,7 @@ import re
 import json
 import pytesseract
 from pdf2image import convert_from_bytes
-
+import random
 def clean_reason_text(text):
     """Clean and normalize reason text."""
     if not text:
@@ -41,7 +41,7 @@ def extract_table_using_line_analysis(full_text):
     extracted_rows = []
     id_pattern = r'\b[A-Z0-9]{8}\b'
     
-    # PROCESS ENTIRE DOCUMENT (Does not stop at 'Regards' anymore)
+    # PROCESS ENTIRE DOCUMENT (Does not stop at 'footers' anymore)
     i = table_start_idx
     while i < len(lines):
         line = lines[i].strip()
@@ -171,6 +171,7 @@ def dms_extraction_logic(pdf_filename):
     b64_output_path = os.path.join(base_path, "02_base64_encoded", pdf_filename.replace(".pdf", ".txt"))
     final_json_path = os.path.join(base_path, "03_decoded_output", pdf_filename.replace(".pdf", ".json"))
     debug_path = os.path.join(base_path, "03_decoded_output", pdf_filename.replace(".pdf", "_debug.txt"))
+    origin = random.choice(['Customer Eye', 'Non-Customer Eye'])
 
     # Base64 Encoding
     with open(raw_file_path, "rb") as pdf_file:
@@ -207,8 +208,9 @@ def dms_extraction_logic(pdf_filename):
 
     date_match = re.search(r'(\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2})', full_text)
     
+    category_type = "DMS" if origin == "Customer Eye" else "Non-DMS"
     extracted_data = {
-        "category": "DMS",
+        "category": category_type,
         "metadata": {
             "approver": approver_email,
             "approval_date": date_match.group(1) if date_match else None,
