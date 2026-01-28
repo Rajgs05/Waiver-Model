@@ -39,7 +39,7 @@ def extract_table_using_line_analysis(full_text):
             break
     
     extracted_rows = []
-    id_pattern = r'\b[A-Z0-9]{8}\b'
+    id_pattern = r'\b[A-Z0-9]{13}\b'
     
     # PROCESS ENTIRE DOCUMENT (Does not stop at 'footers' anymore)
     i = table_start_idx
@@ -123,7 +123,7 @@ def extract_table_using_segment_analysis(table_zone):
     Used as a fallback for the entire document.
     """
     extracted_rows = []
-    id_pattern = r'\b[A-Z0-9]{8}\b'
+    id_pattern = r'\b[A-Z0-9]{13}\b'
     id_matches = list(re.finditer(id_pattern, table_zone))
     
     for i, match in enumerate(id_matches):

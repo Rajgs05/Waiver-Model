@@ -17,13 +17,13 @@
         "totalPriWaivedAmt": 10000,
         "totalpftwaivedamt": 2000,
         "soa_summary_report": [
-            { "finreference": "P9K21LM445672", "component": "bounce_charges", "due": 3000, "receipt": 3000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-            { "finreference": "P9K21LM445672", "component": "penal_charges", "due": 2000, "receipt": 2000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
+            { "finreference": "P9K21LM445672", "component": "bounce_charges", "due": 3000, "receipt": 3000, "overdue": 3400, "waivedoff": 0, "waivedAmtAvail": 0 },
+            { "finreference": "P9K21LM445672", "component": "penal_charges", "due": 2000, "receipt": 2000, "overdue": 1250, "waivedoff": 0, "waivedAmtAvail": 0 },
             { "finreference": "P9K21LM445672", "component": "other_receivable", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
             { "finreference": "P9K21LM445672", "component": "installment_amount", "due": 22000, "receipt": 22000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
             { "finreference": "P9K21LM445672", "component": "pg_access_fee", "due": 500, "receipt": 500, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
             { "finreference": "P9K21LM445672", "component": "unadjusted_amount", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-            { "finreference": "P9K21LM445672", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 }
+            { "finreference": "P9K21LM445672", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 4650, "waivedoff": 0, "waivedAmtAvail": 0 }
         ],
         "transactionReports": [
             {

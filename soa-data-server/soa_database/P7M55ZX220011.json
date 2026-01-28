@@ -19,12 +19,12 @@
     "totalpftwaivedamt": 1000,
     "soa_summary_report": [
       { "finreference": "P7M55ZX220011", "component": "bounce_charges", "due": 6000, "receipt": 2000, "overdue": 4000, "waivedoff": 3000, "waivedAmtAvail": 1000 },
-      {"finreference": "P7M55ZX220011", "component": "penal_charges", "due": 2000, "receipt": 2000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
+      {"finreference": "P7M55ZX220011", "component": "penal_charges", "due": 2000, "receipt": 2000, "overdue": 100, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P7M55ZX220011","component": "other_receivable", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P7M55ZX220011", "component": "installment_amount", "due": 21000, "receipt": 21000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P7M55ZX220011", "component": "pg_access_fee", "due": 700, "receipt": 700, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P7M55ZX220011", "component": "unadjusted_amount", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-      { "finreference": "P7M55ZX220011", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 4000, "waivedoff": 3000, "waivedAmtAvail": 1000 }
+      { "finreference": "P7M55ZX220011", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 4100, "waivedoff": 3000, "waivedAmtAvail": 1000 }
     ],
     "transactionReports": [
         {

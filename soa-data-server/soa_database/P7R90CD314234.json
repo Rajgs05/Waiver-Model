@@ -35,7 +35,7 @@
       "component": "penal_charges", 
       "due": 6000, 
       "receipt": 6000, 
-      "overdue": 0, 
+      "overdue": 2500, 
       "waivedoff": 0, 
       "waivedAmtAvail": 0 },
 
@@ -80,7 +80,7 @@
       "component": "total_overdue", 
       "due": 0, 
       "receipt": 0, 
-      "overdue": 0, 
+      "overdue": 7500, 
       "waivedoff": 4000, 
       "waivedAmtAvail": 1000 
     }

@@ -17,13 +17,13 @@
     "totalPriWaivedAmt": 0,
     "totalpftwaivedamt": 0,
     "soa_summary_report": [
-      { "finreference": "P2W90JK334455","component": "bounce_charges", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-      { "finreference": "P2W90JK334455","component": "penal_charges", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P2W90JK334455","component": "bounce_charges", "due": 0, "receipt": 0, "overdue": 1500, "waivedoff": 0, "waivedAmtAvail": 0 },
+      { "finreference": "P2W90JK334455","component": "penal_charges", "due": 0, "receipt": 0, "overdue": 3625, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P2W90JK334455","component": "other_receivable", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P2W90JK334455","component": "installment_amount", "due": 19000, "receipt": 19000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P2W90JK334455","component": "pg_access_fee", "due": 500, "receipt": 500, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P2W90JK334455","component": "unadjusted_amount", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-      { "finreference": "P2W90JK334455","component": "total_overdue", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 }
+      { "finreference": "P2W90JK334455","component": "total_overdue", "due": 0, "receipt": 0, "overdue": 5125, "waivedoff": 0, "waivedAmtAvail": 0 }
     ],
     "transactionReports": [
         {

@@ -23,7 +23,7 @@
       { "finreference": "P3T88QP991234", "component": "installment_amount", "due": 26000, "receipt": 26000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P3T88QP991234", "component": "pg_access_fee", "due": 1000, "receipt": 1000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P3T88QP991234", "component": "unadjusted_amount", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-      { "finreference": "P3T88QP991234", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 10000, "waivedoff": 0, "waivedAmtAvail": 0 }
+      { "finreference": "P3T88QP991234", "component": "total_overdue", "due": 0, "receipt": 0, "overdue": 5000, "waivedoff": 0, "waivedAmtAvail": 0 }
     ],
     "transactionReports": [
         {

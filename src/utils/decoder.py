@@ -23,7 +23,7 @@ def extract_from_base64(base64_file):
         
         # Table Extraction Logic using Regex (matching the pattern in your attachment)
         # Matches: [8-char AlphaNum], [Number], [Number], [Number], [Reason]
-        matches = re.findall(r'([A-Z0-9]{8})\s+(\d+)\s+(\d+)\s+(\d+)\s+(.+)', page_text)
+        matches = re.findall(r'([A-Z0-9]{13})\s+(\d+)\s+(\d+)\s+(\d+)\s+(.+)', page_text)
         for m in matches:
             table_data.append({
                 "Agreement_Number": m[0],

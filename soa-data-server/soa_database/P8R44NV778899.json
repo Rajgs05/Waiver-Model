@@ -24,7 +24,7 @@
       { "finreference": "P8R44NV778899", "component": "installment_amount", "due": 28000, "receipt": 28000, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P8R44NV778899", "component": "pg_access_fee", "due": 1500, "receipt": 1500, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
       { "finreference": "P8R44NV778899", "component": "unadjusted_amount", "due": 0, "receipt": 0, "overdue": 0, "waivedoff": 0, "waivedAmtAvail": 0 },
-      { "finreference":"P8R44NV778899","component":"total_overdue","due":"$amountDue","receipt":"$amountReceived","overdue":"$amountOverDue","waivedoff":"$amountWaivedOff","waivedAmtAvail":"$amountWaivedAvailable"}
+      { "finreference":"P8R44NV778899","component":"total_overdue","due":"$amountDue","receipt":"$amountReceived","overdue":13000,"waivedoff":"$amountWaivedOff","waivedAmtAvail":"$amountWaivedAvailable"}
     ],
     "transactionReports": [
         {
