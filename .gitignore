@@ -3,3 +3,6 @@ __pycache__/
 data/dms/01_raw_pdf/*
 .venv/
 data/
+.env
+data/dms/
+soa-data-server/soa_database/
