@@ -5,7 +5,7 @@ imghdr.what = lambda *args, **kwargs: "jpeg"
 sys.modules["imghdr"] = imghdr
 # -----------------------------------
 
-import os, re, json, random, io
+import os, re, json, io
 import numpy as np
 import pdfplumber
 from paddleocr import PaddleOCR
@@ -20,7 +20,6 @@ def clean_reason_text(text):
         return None
     text = re.sub(r'\s+', ' ', text).strip()
     return text if len(text) > 2 else None
-
 
 def group_by_y(tokens, threshold=100):
     tokens.sort(key=lambda x: x[1])
@@ -39,39 +38,39 @@ def group_by_y(tokens, threshold=100):
         rows.append(current_row)
     return rows
 
-
 # ---------------- E-PDF PARSER ---------------- #
 
 def extract_using_columns(full_text):
     lines = [l.strip() for l in full_text.split('\n') if l.strip()]
-    id_pattern = r'\b[A-Z0-9]{8}\b'
-    rows, buffer = [], ""
+    # Updated pattern to be case-insensitive and handle 8-char IDs
+    id_pattern = r'[A-Z0-9]{8}' 
+    extracted = []
 
     for line in lines:
-        if re.search(id_pattern, line):
-            if buffer:
-                rows.append(buffer)
-            buffer = line
-        else:
-            buffer += " " + line
-    if buffer:
-        rows.append(buffer)
-
-    extracted = []
-    for row in rows:
-        parts = re.split(r'\s{2,}', row)
-        if len(parts) < 5 or not re.fullmatch(id_pattern, parts[0]):
-            continue
-
-        extracted.append({
-            "Agreement Number": parts[0],
-            "Penal Charge": parts[1],
-            "Bounce Charge": parts[2],
-            "Total Amount to be Waived off": parts[3],
-            "Reason": clean_reason_text(parts[4]) or "Not Specified"
-        })
+        # Search for the ID anywhere in the line to be safe
+        match = re.search(id_pattern, line)
+        if match:
+            # Flexible splitting: handles 1 or more spaces/tabs
+            parts = re.split(r'\s{1,}', line) 
+            
+            # Locate the index where the ID starts
+            id_idx = -1
+            for i, p in enumerate(parts):
+                if re.fullmatch(id_pattern, p):
+                    id_idx = i
+                    break
+            
+            # If we found an ID and there are at least 3 numbers following it
+            if id_idx != -1 and len(parts) >= id_idx + 4:
+                extracted.append({
+                    "Agreement Number": parts[id_idx],
+                    "Penal Charge": parts[id_idx + 1],
+                    "Bounce Charge": parts[id_idx + 2],
+                    "Total Amount to be Waived off": parts[id_idx + 3],
+                    # Join remaining parts as the Reason
+                    "Reason": clean_reason_text(" ".join(parts[id_idx + 4:])) or "Not Specified"
+                })
     return extracted
-
 
 # ---------------- OCR PARSER ---------------- #
 
@@ -121,18 +120,13 @@ def extract_using_ocr_layout(raw_pdf_bytes):
 
     return extracted, " ".join(full_page_text)
 
-
 # ---------------- MAIN PIPELINE ---------------- #
 
 def dms_extraction_logic(pdf_filename):
     base_path = "data/dms"
-    raw_file_path = os.path.join(base_path, "01_raw_pdf", pdf_filename)
+    raw_file_path = os.path.join("raw_files", pdf_filename) # Updated to point to common raw_files
     final_json_path = os.path.join(base_path, "03_decoded_output", pdf_filename.replace(".pdf", ".json"))
-    debug_path = os.path.join(base_path, "03_decoded_output", pdf_filename.replace(".pdf", "_debug.txt"))
-    txt_output_path = os.path.join(base_path, "03_decoded_output", pdf_filename.replace(".pdf", "_table.txt"))
-
-    origin = random.choice(['Customer Eye', 'Non-Customer Eye'])
-
+    
     with open(raw_file_path, "rb") as f:
         raw_pdf_bytes = f.read()
 
@@ -162,35 +156,27 @@ def dms_extraction_logic(pdf_filename):
         unique_rows[key] = r
     rows = list(unique_rows.values())
 
-    # -------- Save debug --------
-    with open(debug_path, "w", encoding="utf-8") as f:
-        f.write(f"Mode: {extraction_mode}\n\n")
-        f.write(meta_text)
-
     # -------- Metadata Extraction --------
-    from_match = re.search(r'From\s+.*?([\w\.-]+@[\w\.-]+\.\w+)',meta_text, re.IGNORECASE) 
+    from_match = re.search(r'From\s+.*?([\w\.-]+@[\w\.-]+\.\w+)', meta_text, re.IGNORECASE) 
     approver = from_match.group(1) if from_match else None   
-    date_match = re.search(r'Date\s+.*?(\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2})', meta_text,re.IGNORECASE)
+    date_match = re.search(r'Date\s+.*?(\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2})', meta_text, re.IGNORECASE)
 
+    # Static categorization for DMS logic
     result = {
-        "category": "DMS" if origin == "Customer Eye" else "Non-DMS",
-        "origin": origin,
+        "category": "DMS",
+        "origin": "Customer Eye",
         "metadata": {
             "approver": approver,
             "approval_date": date_match.group(1) if date_match else None,
             "status": "Approved" if re.search(r'approved', meta_text, re.I) else "Pending"
         },
-        "waiver_details": rows
+        "waiver_details": rows,
+        "extraction_method": extraction_mode
     }
 
+    # Save to DMS folder
+    os.makedirs(os.path.dirname(final_json_path), exist_ok=True)
     with open(final_json_path, "w") as f:
         json.dump(result, f, indent=4)
-
-    # -------- Save Table TXT --------
-    with open(txt_output_path, "w", encoding="utf-8") as f:
-        f.write("Agreement Number | Penal Charge | Bounce Charge | Total Amount | Reason\n")
-        f.write("-" * 85 + "\n")
-        for row in rows:
-            f.write(f"{row['Agreement Number']} | {row['Penal Charge']} | {row['Bounce Charge']} | {row['Total Amount to be Waived off']} | {row['Reason']}\n")
 
     return result

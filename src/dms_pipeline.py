@@ -9,7 +9,7 @@ from utils.extractor import dms_extraction_logic
 from utils.validator import validate_waiver_request
 
 def run_pipeline():
-    target_file = "Test1.pdf"
+    target_file = "attachment1_compressed_compressed.pdf"
     print(f"--- Starting DMS Pipeline for {target_file} ---")
     
     try:
